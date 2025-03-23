@@ -74,6 +74,6 @@ def predict_car_price(features):
 
 # Example usage
 sample_features = {'Year': 2015, 'Present_Price': 7.5, 'Driven_kms': 40000, 'Fuel_Type': 'Petrol',
-                   'Selling_type': 'Dealer', 'Transmission': 'Manual', 'Owner': 0}  # Adjust as per dataset
+                   'Selling_type': 'Dealer', 'Transmission': 'Manual', 'Owner': 0} 
 predicted_price = predict_car_price(sample_features)
 print(f"Predicted Price: {predicted_price}")
